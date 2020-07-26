@@ -98,7 +98,7 @@ const TemplateWrapper = ({ children }) => {
                   />
                 </div>
                 <div className="mobile-header__logo">
-                  <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
+                  <Link to="/">HUMBERTO DELGADO</Link>
                 </div>
               </div>
             </div>
