@@ -52,7 +52,7 @@ const TemplateWrapper = ({ children }) => {
           <div className="container__sidebar">
             <div className="sidebar">
               <h6 className="sidebar__title">
-                <Link to="/">HUMBERTO DELGADO</Link>
+                <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
               </h6>
               <div
                 className="sidebar__intro"
@@ -98,7 +98,7 @@ const TemplateWrapper = ({ children }) => {
                   />
                 </div>
                 <div className="mobile-header__logo">
-                  <Link to="/">HUMBERTO DELGADO</Link>
+                  <Link to="/">{data.datoCmsSite.globalSeo.siteName}</Link>
                 </div>
               </div>
             </div>
